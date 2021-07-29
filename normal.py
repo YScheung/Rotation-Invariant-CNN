@@ -1,3 +1,5 @@
+# To detect normal images (without rotation) 
+
 from tensorflow.keras.models import model_from_json
 import numpy as np
 import cv2
