@@ -8,9 +8,8 @@ In this project, I would like to create a CNN network that could classify rotate
 ## Main ideas: 
 After the CNN model is trained on unrotated images: 
 1) Rotate CNN filters by 180 degrees to detect features in rotated images
-2) Rotate the feature map by 180 degrees before feeding it into the fully connnected layer 
-3) The feature map will then be inputted to the fully connected CNN network for classification.
-
+2) Rotate the resulting feature map back by 180 degrees (resulting feature map for rotated and unrotated images are now the same)
+3) Input the rotated feature map to the fully connected CNN network for classification.
 
 
 ## Results and conclusion 
